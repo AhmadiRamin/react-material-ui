@@ -6,7 +6,7 @@ import {
   IPropertyPaneConfiguration,
   PropertyPaneTextField
 } from '@microsoft/sp-property-pane';
-
+import { sp } from "@pnp/sp";
 import * as strings from 'MaterialUiSampleWebPartStrings';
 import MaterialUiSample from './components/MaterialUiSample';
 import { IMaterialUiSampleProps } from './components/IMaterialUiSampleProps';
@@ -34,6 +34,12 @@ export default class MaterialUiSampleWebPart extends BaseClientSideWebPart<IMate
 
   protected get dataVersion(): Version {
     return Version.parse('1.0');
+  }
+  protected onInit(): Promise<void> {   
+    sp.setup({
+      spfxContext: this.context
+    });
+    return super.onInit();
   }
 
   protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {
