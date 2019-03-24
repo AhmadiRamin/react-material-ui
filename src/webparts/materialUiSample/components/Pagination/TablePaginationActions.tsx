@@ -1,5 +1,5 @@
 import * as React from 'react';
-import styles from './MaterialUiSample.module.scss';
+import styles from '../MaterialUiSample.module.scss';
 import { IPaginationActionsProps } from './IPaginationActionsProps';
 import IconButton from '@material-ui/core/IconButton';
 import FirstPageIcon from '@material-ui/icons/FirstPage';

@@ -1,7 +1,7 @@
 import BookListItem from "./BookListItem";
 
 export default interface IMaterialUiSampleState {
-    rows: BookListItem[];
+    books: BookListItem[];
     page: number;
     rowsPerPage: number;
     showDetailsDialog:boolean;
