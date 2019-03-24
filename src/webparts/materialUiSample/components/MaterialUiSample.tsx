@@ -55,7 +55,7 @@ export default class MaterialUiSample extends React.Component<IMaterialUiSampleP
       searchValue: '',
       books: [],
       page: 0,
-      rowsPerPage: 5,
+      rowsPerPage: 3,
       showDetailsDialog: false,
       book: {
         Title: '',

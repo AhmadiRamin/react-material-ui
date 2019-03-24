@@ -19,7 +19,7 @@
     "group": { "default": "Other" },
     "title": { "default": "Material UI Sample" },
     "description": { "default": "A simple solution of how to use Material UI in SPFx" },
-    "officeFabricIconFontName": "Page",
+    "officeFabricIconFontName": "Design",
     "properties": {
       "description": "Material UI Sample"
     }

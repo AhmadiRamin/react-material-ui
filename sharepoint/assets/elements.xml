@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance CustomSchema="listSchema.xml" 
+	FeatureId="651c78e8-4195-48fb-87ea-ca569db530c4" 
+	Title="Books" Description="" TemplateType="100" Url="Lists/books" Hidden="FALSE">
+	</ListInstance>
+</Elements>
