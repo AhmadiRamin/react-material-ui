@@ -5,7 +5,7 @@
     "id": "868ce19b-5d78-49f0-b782-aba19682f78b",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
-    "skipFeatureDeployment": true,
+    "skipFeatureDeployment": false,
     "isDomainIsolated": false,
     "features": [{
       "title": "React Material UI Sample",
